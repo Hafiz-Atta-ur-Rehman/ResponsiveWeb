@@ -1,0 +1,80 @@
+/* Honda CSS */
+.moreproducts{
+    margin: 10px 0 0 10px;
+}
+.mybtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mycard .card{
+    margin: 30px 0 0 100px;
+}
+/* Road Prince CSS */
+.RP{
+    margin-top: 30px;
+}
+/* Products CSS */
+.img1{
+    width: 100%;
+    height: 235px;
+}
+/* Same Page Linking CSS */
+.pglink{
+    margin: 40px 0 0 20px;
+}
+.pglink button{
+    width: 150px;
+    height: 50px;
+    margin-left: 2rem;
+    border: 2px solid #E53935;  
+    background-color: wheat;
+}
+.pglink button a{
+    color: #E53935;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pglink button:hover{
+    font-weight: bold;
+    background-color: rgb(216, 62, 59);
+    border: 5px solid white;
+}
+.pglink button a:hover{
+    color: white;
+    font-weight: bold;
+}
+@media only screen and (max-width: 575.98px){
+    .pglink{
+        margin: 40px 0 0 5px;
+    }
+    .pglink button{
+        width: 120px;
+        height: 40px;
+        margin: 10px 0 0 40px;
+        border: 2px solid #E53935;  
+        background-color: wheat;
+    }
+    .pglink button a{
+        color: #E53935;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 575.98px){
+    .moreproducts{
+        margin: 5px 0 0 5px;
+    }
+    .mybtn{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .mycard .card{
+        width: 300px !important;
+        height: 450px !important;
+        margin: 30px 0 0 30px;
+    }
+    .btn1{
+        margin-left: 80px !important;
+    }
+}
